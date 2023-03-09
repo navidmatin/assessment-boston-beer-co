@@ -7,12 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge1Queue", "Challeng
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge1QueueTests", "Challenge1QueueTests\Challenge1QueueTests.csproj", "{50B11292-A506-4092-9682-63C4A941270E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge3Api", "Challenge3Api\Challenge3Api.csproj", "{8990A57C-0FC3-4797-84D9-205DA4983353}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge3Api", "Challenge3Api\Challenge3Api.csproj", "{8990A57C-0FC3-4797-84D9-205DA4983353}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4E31C81B-B5FB-4171-8C3B-C2FDB65157BC}"
 	ProjectSection(SolutionItems) = preProject
 		Challenge2DbDesign.sql = Challenge2DbDesign.sql
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge3Api.Tests", "Challenge3Api.Tests\Challenge3Api.Tests.csproj", "{9BA7DC23-0291-484A-A466-DED13B95655C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{8990A57C-0FC3-4797-84D9-205DA4983353}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8990A57C-0FC3-4797-84D9-205DA4983353}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8990A57C-0FC3-4797-84D9-205DA4983353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA7DC23-0291-484A-A466-DED13B95655C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA7DC23-0291-484A-A466-DED13B95655C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA7DC23-0291-484A-A466-DED13B95655C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA7DC23-0291-484A-A466-DED13B95655C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

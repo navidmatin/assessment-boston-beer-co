@@ -17,7 +17,7 @@ namespace Challenge3Api.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<Product> Get(string? name = null)
+        public IEnumerable<Product> GetProducts(string? name = null)
         {
             if(name == null)
             {
